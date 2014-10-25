@@ -22,6 +22,16 @@
 		B480459919F973B300BB995D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B480457819F973B200BB995D /* UIKit.framework */; };
 		B48045A119F973B300BB995D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B480459F19F973B300BB995D /* InfoPlist.strings */; };
 		B48045A319F973B300BB995D /* ScrapeItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48045A219F973B300BB995D /* ScrapeItTests.m */; };
+		B48045B319F9806C00BB995D /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B48045AD19F9806C00BB995D /* backgroundImage.png */; };
+		B48045B419F9806C00BB995D /* defaultPic.png in Resources */ = {isa = PBXBuildFile; fileRef = B48045AE19F9806C00BB995D /* defaultPic.png */; };
+		B48045B519F9806C00BB995D /* downloadDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = B48045AF19F9806C00BB995D /* downloadDisabled.png */; };
+		B48045B619F9806C00BB995D /* downloadEnabled.png in Resources */ = {isa = PBXBuildFile; fileRef = B48045B019F9806C00BB995D /* downloadEnabled.png */; };
+		B48045B719F9806C00BB995D /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = B48045B119F9806C00BB995D /* link.png */; };
+		B48045B819F9806C00BB995D /* topBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B48045B219F9806C00BB995D /* topBackground.png */; };
+		B4AD0B1B19FA934200F2822E /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AD0B1819FA934200F2822E /* TFHpple.m */; };
+		B4AD0B1C19FA934200F2822E /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AD0B1A19FA934200F2822E /* TFHppleElement.m */; };
+		B4AD0B1F19FA93E400F2822E /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AD0B1E19FA93E400F2822E /* XPathQuery.m */; };
+		B4AD0B2319FA946400F2822E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AD0B2219FA946400F2822E /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,19 @@
 		B480459E19F973B300BB995D /* ScrapeItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrapeItTests-Info.plist"; sourceTree = "<group>"; };
 		B48045A019F973B300BB995D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B48045A219F973B300BB995D /* ScrapeItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrapeItTests.m; sourceTree = "<group>"; };
+		B48045AD19F9806C00BB995D /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImage.png; sourceTree = "<group>"; };
+		B48045AE19F9806C00BB995D /* defaultPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPic.png; sourceTree = "<group>"; };
+		B48045AF19F9806C00BB995D /* downloadDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloadDisabled.png; sourceTree = "<group>"; };
+		B48045B019F9806C00BB995D /* downloadEnabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloadEnabled.png; sourceTree = "<group>"; };
+		B48045B119F9806C00BB995D /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		B48045B219F9806C00BB995D /* topBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBackground.png; sourceTree = "<group>"; };
+		B4AD0B1719FA934200F2822E /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		B4AD0B1819FA934200F2822E /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		B4AD0B1919FA934200F2822E /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		B4AD0B1A19FA934200F2822E /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		B4AD0B1D19FA93E400F2822E /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		B4AD0B1E19FA93E400F2822E /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		B4AD0B2219FA946400F2822E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AD0B2319FA946400F2822E /* libxml2.dylib in Frameworks */,
 				B480457719F973B200BB995D /* CoreGraphics.framework in Frameworks */,
 				B480457919F973B300BB995D /* UIKit.framework in Frameworks */,
 				B480457519F973B200BB995D /* Foundation.framework in Frameworks */,
@@ -84,6 +108,7 @@
 		B480456819F973B200BB995D = {
 			isa = PBXGroup;
 			children = (
+				B48045AC19F9805300BB995D /* Images */,
 				B480457A19F973B300BB995D /* ScrapeIt */,
 				B480459C19F973B300BB995D /* ScrapeItTests */,
 				B480457319F973B200BB995D /* Frameworks */,
@@ -103,6 +128,7 @@
 		B480457319F973B200BB995D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4AD0B2219FA946400F2822E /* libxml2.dylib */,
 				B480457419F973B200BB995D /* Foundation.framework */,
 				B480457619F973B200BB995D /* CoreGraphics.framework */,
 				B480457819F973B200BB995D /* UIKit.framework */,
@@ -114,6 +140,7 @@
 		B480457A19F973B300BB995D /* ScrapeIt */ = {
 			isa = PBXGroup;
 			children = (
+				B4AD0B1619FA934200F2822E /* HTMLParser */,
 				B480458319F973B300BB995D /* SIAppDelegate.h */,
 				B480458419F973B300BB995D /* SIAppDelegate.m */,
 				B480458619F973B300BB995D /* Main_iPhone.storyboard */,
@@ -153,6 +180,33 @@
 				B480459F19F973B300BB995D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48045AC19F9805300BB995D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B48045AD19F9806C00BB995D /* backgroundImage.png */,
+				B48045AE19F9806C00BB995D /* defaultPic.png */,
+				B48045AF19F9806C00BB995D /* downloadDisabled.png */,
+				B48045B019F9806C00BB995D /* downloadEnabled.png */,
+				B48045B119F9806C00BB995D /* link.png */,
+				B48045B219F9806C00BB995D /* topBackground.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		B4AD0B1619FA934200F2822E /* HTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				B4AD0B1719FA934200F2822E /* TFHpple.h */,
+				B4AD0B1819FA934200F2822E /* TFHpple.m */,
+				B4AD0B1919FA934200F2822E /* TFHppleElement.h */,
+				B4AD0B1D19FA93E400F2822E /* XPathQuery.h */,
+				B4AD0B1E19FA93E400F2822E /* XPathQuery.m */,
+				B4AD0B1A19FA934200F2822E /* TFHppleElement.m */,
+			);
+			path = HTMLParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +286,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48045B419F9806C00BB995D /* defaultPic.png in Resources */,
+				B48045B619F9806C00BB995D /* downloadEnabled.png in Resources */,
+				B48045B719F9806C00BB995D /* link.png in Resources */,
+				B48045B519F9806C00BB995D /* downloadDisabled.png in Resources */,
 				B480458B19F973B300BB995D /* Main_iPad.storyboard in Resources */,
 				B480459019F973B300BB995D /* Images.xcassets in Resources */,
 				B480458819F973B300BB995D /* Main_iPhone.storyboard in Resources */,
+				B48045B319F9806C00BB995D /* backgroundImage.png in Resources */,
 				B480457F19F973B300BB995D /* InfoPlist.strings in Resources */,
+				B48045B819F9806C00BB995D /* topBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +317,9 @@
 				B480458519F973B300BB995D /* SIAppDelegate.m in Sources */,
 				B480458E19F973B300BB995D /* SIViewController.m in Sources */,
 				B480458119F973B300BB995D /* main.m in Sources */,
+				B4AD0B1B19FA934200F2822E /* TFHpple.m in Sources */,
+				B4AD0B1F19FA93E400F2822E /* XPathQuery.m in Sources */,
+				B4AD0B1C19FA934200F2822E /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +456,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScrapeIt/ScrapeIt-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "ScrapeIt/ScrapeIt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -406,6 +474,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScrapeIt/ScrapeIt-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "ScrapeIt/ScrapeIt-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -471,6 +544,7 @@
 				B48045A819F973B300BB995D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48045A919F973B300BB995D /* Build configuration list for PBXNativeTarget "ScrapeItTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +553,7 @@
 				B48045AB19F973B300BB995D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
